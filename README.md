@@ -1,4 +1,4 @@
-##Introduction
+## UDP Client Code for STM32+W5500
 A simple UDP client example for Wiznet IO driver. Use Hercules as UDP server on the PC. This example uses static IP (no DHCP).
 Edit the IP address of this client on file ethernet.c This UDP client will send simple hello world text message on UDP port number 5000.
 
