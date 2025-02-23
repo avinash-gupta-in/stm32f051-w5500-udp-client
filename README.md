@@ -34,5 +34,5 @@ You will need ![STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubei
 ![STM32CubeIDE Popup](https://extremeelectronics.co.in/github/w5500/stm32cube_ide.png)
 
 ## More information
-To learn more about w5500 Ethernet controller and its interface with STM32, please subsribe to our course on Udemy.
+To learn more about w5500 Ethernet controller and its interface with STM32, please subscribe to our course on Udemy.
 [Udemy's course on W5500 Interfacing](https://www.udemy.com/course/ethernet-on-stm32-using-w5500/)

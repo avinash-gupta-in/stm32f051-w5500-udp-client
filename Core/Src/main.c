@@ -129,7 +129,7 @@ int main(void)
   //we are using socket number 1 so it should return 1 for success
   //The 3rd argument is the local port, when a client is written
   //better give 0 here, that will use a random available port
-  if(socket(1, Sn_MR_UDP, SERVER_PORT, 0)==1)
+  if(socket(1, Sn_MR_UDP, 0, 0)==1)
   {
 	  printf("\r\nUDP Socket Created Successfully\r\n");
   }
@@ -149,12 +149,12 @@ int main(void)
 	  {
 		  //error
 		  printf("Data sending failed!\r\n");
-		  printf("Written %ld bytes to socket\r\n", result);//on success it returns number of bytes written to socket
 	  }
 	  else
 	  {
 		  //success
-		  printf("Data sending successful!\r\n");
+		  printf("Data sent successfully!\r\n");
+		  printf("Written %ld bytes to socket\r\n", result);//on success it returns number of bytes written to socket
 	  }
 
 	  HAL_Delay(1000);
